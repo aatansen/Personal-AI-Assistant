@@ -1,0 +1,14 @@
+[workspace]
+authors = ["Md. Alahi Almin Tansen <aatansen@gmail.com>"]
+channels = ["conda-forge"]
+name = "Personal-AI-Assistant"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.13.*"
+google-genai = ">=1.56.0,<2"
+python-dotenv = ">=1.2.1,<2"
+streamlit = ">=1.52.2,<2"
