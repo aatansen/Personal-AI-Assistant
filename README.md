@@ -70,6 +70,9 @@
 - Maintain conversation memory stored in a JSON file.
 - Respect system-level instructions / assistant personality via `PromptController`.
 - Robust error handling and graceful fallback when API or system errors occur.
+- Chat history
+  - Control Chat (delete/rename)
+  - Export chat history as txt or json
 
 [⬆️ Go to Context](#context)
 
